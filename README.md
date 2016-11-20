@@ -1,10 +1,11 @@
-# Arturo Hernandez Jr - Portfolio 
-This is my personal website portfolio, feel free to checkout my code and other projects.
+ArturoHernandezJr.com
+=====================
 
-## Stack used
+My personal portfolio website using Bootstrap and other fun technology
+
+Stack used
+----------
 -Bootstrap
--Gulp
--More coming soon...
 
-## Preview
-http://ArturoHernandezjr.com/
+### Online demo ###
+coming soon...
