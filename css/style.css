@@ -190,7 +190,7 @@ a:hover {
 
 /* HERO SECTION */
 .hero {
-	background-image: url('../img/me-blue-2.png');
+	background-image: url('../img/about-me.jpg');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -273,7 +273,7 @@ a:hover {
 
 /* ART SECTION */
 .art {
-	background-image: url('../img/art-cover-1.png');
+	background-image: url('../img/art-section.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -321,6 +321,7 @@ a:hover {
 .trusted {
 	width: 100%;
 	margin-bottom: 30px;
+	max-width: 250px;
 }
 
 /* RESEARCH SECTION */
@@ -334,7 +335,7 @@ a:hover {
 
 /* RESUME SECTION */
 .resume {
-	background-image: url('../img/case-b-1.png');
+	background-image: url('../img/resume-section.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -394,7 +395,7 @@ a:hover {
 
 /*CONTACT SECTION */
 .contact {
-	background-image: url('../img/ocean-bl-1.png');
+	background-image: url('../img/contact-section.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
