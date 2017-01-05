@@ -3,163 +3,287 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, intial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="#">
 	<title>Arturo Hernandez Jr</title>
-	<!-- Bootstrap -->
+
+	<!-- Bootstrap framework -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Font-Awesome icons -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Custom stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i" rel="stylesheet"> 
 </head>
-<body id="page-top" class="index">
-	<!-- Navigation -->
-	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-		<div class="container">
-			<!-- Branc and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle naviagtion</span> Menu <i class="fa fa-bars"></i>
-				</button>
-				<a class="navbar-brand" href="#page-top"><i class="fa fa-terminal"></i> Arturo Hernandez Jr</a>
-
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling-->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden"><a href="#page-top"></a></li>
-					<li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-					<li class="page-scroll"><a href="#about">About</a></li>
-					<li class="page-scroll"><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
+<body>
+	<div class="home-wrap">
+		<!-- MOBILE NAV -->
+		<div class="mobile-nav">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#web">Web portfolio</a></li>
+				<li><a href="#art">Art stuff</a></li>
+				<li><a href="#photo">Photos</a></li>
+				<li><a href="#research">Research</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
 		</div>
-	</nav>
-
-	<!-- Header -->
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<img class="img-responsive" src="img/me_circle.png" alt="">
-					<div class="intro-text text-center">
-						<span class="name">Arturo Hernandez Jr</span>
-						<hr>
-						<span class="skills">Front-end Developer - Artist - Software Developer</span>
-					</div>
-				</div>
+		<!-- SIDEBAR NAV -->
+		<header>
+			<div class="header-position">
+				<h4 class="logo">ART</h4>
+				<nav class="site-nav">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#web">Web portfolio</a></li>
+						<li><a href="#art">Art stuff</a></li>
+						<li><a href="#photo">Photos</a></li>
+						<li><a href="#research">Research</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<a href="mailto:art3her@gmail.com" class="email-link">+email me</a>
+				<div class="mobile-nav-toggle"><span></span></div>
 			</div>
-		</div>
-	</header>
+		</header>
 
-	<!-- Portfolio Grid -->
-	<section id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2>Portfolio</h2>
-					<hr class="star-primary">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 portfolio-item text-center">
-					<p data-height="265" data-theme-id="dark" data-slug-hash="JKNPpm" data-default-tab="result" data-user="art3her" data-embed-version="2" data-pen-title="Tribute Page project" class="codepen">See the Pen <a href="http://codepen.io/art3her/pen/JKNPpm/">Tribute Page project</a> by Arturo Hernandez (<a href="http://codepen.io/art3her">@art3her</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-					<p><a href="http://codepen.io/art3her/pen/JKNPpm"><b>Tribute page</b></a><br>Uses HTML, CSS, and Bootstrap.</p>
-				</div>
-				<div class="col-sm-6 portfolio-item text-center">
-					<iframe src="https://ahernandez16.github.io/GOT-random-quote-generator/" width="100%" height="265" frameborder="0" scrolling="yes"></iframe>
-					<p><a href="https://ahernandez16.github.io/GOT-random-quote-generator/"><b>Random quote generator</b></a><br>Uses JSON, jQuery, and (of course) Github</p>
-				</div>
-			</div>
-		</div>
-	</section>
+		<!-- MAIN CONTENT -->
+		<div class="main-content">
+			<div class="container-fluid">
 
-	<!-- About Section -->
-	<section class="success" id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2>About</h2>
-					<hr class="star-light">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
-					<p>I am a determined and energetic worker, quick learner and creative thinker who tries to embody a jack of all trades lifestyle, a proactive team player and contribute to activities that I am passionate about.</p>
-				</div>
-				<div class="col-lg-4">
-					<p>I have experience in programming, research in Digital Humanities, consulting and troubleshooting. Recently I graduated with a Bachelor's degree in Computer Science and Studio Art, and I currently work at non-profit as a computer instructor in Costa Rica.</p>
-				</div>
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<a href="docs/resume-2016.pdf" class="btn btn-lg btn-outline">
-						<i class="fa fa-download"></i> Resume
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Contact Section -->
-	<section id="contact">
-		<div class="container">
-			<div class="powr-contact-form" id="324a4348_1479665068"></div>
-		</div>    	
-	</section>
-
-	<!-- Footer -->
-	<footer class="text-center">
-		<div class="footer-above">
-			<div class="container">
-				<div class="row">
-					<div class="footer-col col-md-4">
-						<h3>Location</h3>
-						<p>Playa Potrero
-							<br>Guanacaste, Costa Rica</p>
-						</div>
-						<div class="footer-col col-md-4">
-							<h3>Around the Web</h3>
-							<ul class="list-inline">
-								<li>
-									<a href="https://github.com/ahernandez16" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/in/art-hernandez-jr" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-								</li>
-								<li>
-									<a href="http://eportfolios.cornellcollege.edu/art/ahernandez16/" class="btn-social btn-outline"><i class="fa fa-fw fa-paint-brush"></i></a>
-								</li>
-							</ul>
-						</div>
-						<div class="footer-col col-md-4">
-							<h3>Hire me</h3>
-							<p>Front-end Developer, Artist, Software Developer. 
-								<br>Available January 2017.</p>
-							</div>
+				<!-- HERO SECTION -->
+				<div class="row hero">
+					<div class="col-sm-6 col-sm-offset-6 col-lg-4 col-lg-offset-6">
+						<div class="transbox">
+							<h2>Hi! I'm Art,</h2>
+							<p class="home-lead">and I like to spend my time...</p>
 						</div>
 					</div>
-				</div>
-				<div class="footer-below">
-					<div class="container">
+				</div> <!-- end of HERO SECTION -->
+
+				<!-- WEB PORTFOLIO SECTION -->
+				<div id="web" class="row web">
+					<div class="col-md-12">
+						<p class="home-lead">...coding responsive websites...</p>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-lg-offset-2">
+						<div class="image-container">
+							<img src="img/lpdf-cover.png" class="laptop-image">
+							<img src="img/laptop.png" class="laptop">
+							<img src="img/lpdf-iphone-image.png" class="iphone-image">
+							<img src="img/iphone.png" class="iphone">
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4">
 						<div class="row">
-							<div class="col-lg-12">
-								Copyright &copy; Arturo Hernandez Jr 2016
+							<div class="col-xs-6 web-proj">
+								<a href="http://lospiratasdeflamingo.com" target="_blank"><img src="img/lpdf.png" class="web-img"></a>
+							</div>
+							<div class="col-xs-6 description">
+								<p>Website design for small business clients.</p>
+							</div>
+							<div class="col-xs-12">
+								<p class="center-block">
+									<a href="http://github.com/ahernandez16" target="_blank"><button type="button" class="bl-btn">Follow Me On Github</button></a>
+								</p>
+							</div>
+							<div class="col-xs-12">
+								<p class="center-block">
+									<a href="#"  target="_blank"><button type="button" class="wh-btn">Hire Me</button></a>
+								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-			</footer>
+				</div> <!-- end of WEB PORTFOLIO SECTION -->
 
-			<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-			<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-				<a class="btn btn-primary" href="#page-top">
-					<i class="fa fa-chevron-up"></i>
-				</a>
-			</div>
+				<!-- ART PORTFOLIO SECTION -->
+				<div id="art" class="row art">
+					<div class="col-sm-6 col-lg-4 col-lg-offset-2">
+						<p class="home-lead">...designing and creating...</p>
+						<p>Stretching canvas, planning an art space, vector graphic design for t-shirt and logos.</p>
+						<a href="http://eportfolios.cornellcollege.edu/art/ahernandez16/" target="_blank"><button type="button" class="wh-btn">Latest Show</button></a>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-1.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-3.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-2.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-4.png"></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-5.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-13.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-7.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-8.png"></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-11.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-10.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-16.png"></a>
+							</div>
+							<div class="col-xs-3 thumb">
+								<a href="#"><img src="img/art-thumbnails/thumb-12.png"></a>
+							</div>
+						</div>
+					</div>
+				</div> <!-- end of ART PORTFOLIO SECTION -->
 
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.min.js"></script>
-			<script src="//www.powr.io/powr.js" external-type="html"></script> 
-			<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-		</body>
-		</html>
+				<!-- 360 PHOTOGRAPHER SECTION -->
+				<div id="photo" class="row photo">
+					<div class="col-md-12">
+						<p class="home-lead">...photographing for a virtual world...</p>
+					</div>
+					<div class="col-sm-9">
+						<!-- MIGHT BE MAKING SITE SLOW -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1483123861073!6m8!1m7!1sF%3A-8tUcHwmXV04%2FV_6u7-BgUZI%2FAAAAAAAANwc%2F_0TCQnBTjuceTth_R79HBKdp_N2xwaj2gCLIB!2m2!1d11.540978321507016!2d-85.63286870551332!3f198!4f0!5f0.7820865974627469" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="col-sm-3">
+							<img src="img/guide-tiny.png" class="guide">
+							<img src="img/SVtrusted-EN.png" class="trusted">
+							<button type="button" class="grn-btn">See my Profile</button>
+					</div>
+				</div> <!-- end of 360 PHOTO SECTION -->
+
+				<!-- RESEARCH SECTION -->
+				<!--
+				<div id="research" class="row research">
+					<div class="col-md-12">
+						<p class="home-lead">...research driven...</p>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-lg-offset-2">
+						<h3>PREZI HERE</h3>
+					</div>
+					<div class="col-sm-6 col-lg-4">
+						<h3>ABOUT</h3>
+						<p>Talking about project</p>
+						<h3>PROCESS</h3>
+						<p>Stack used, other elements to highlight</p>
+					</div>
+					<div class="col-sm-12">
+						<h3>CONFERENCES</h3>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-lg-offset-2">
+						<p>Talking about the cool places I presented work and had discussions...</p>
+					</div>
+					<div class="col-sm-6 col-lg-4">
+						<h3>YOUTUBE</h3>
+					</div>
+				</div> --><!-- end of RESEARCH SECTION -->
+
+				<!-- RESUME SECTION -->
+				<div id="resume" class="row resume">
+					<div class="col-sm-6 col-lg-4 resume-col-1">
+						<p class="home-lead">...so download my latest resume...</p>
+						<img src="img/pdf-icon.png" class="pdf">
+						<p>
+							<a href="Resume.pdf" target="_blank"><button type="button" class="bl-btn">Download</button></a>
+						</p>
+					</div>
+					<div class="col-sm-6 col-lg-4col-lg-offset-2 resume-col-2">
+						<h4>Experience</h4>
+						<div class="row experience">
+							<div class="col-sm-3">
+								<p>Potrero, Costa Rica</p>
+								<p>Aug - Dec 2016</p>
+							</div>
+							<div class="col-sm-9 ">
+								<h5><a href="http://abriendomentes.org" target="_blank">Abriendo Mentes</a></h5>
+								<h6>Computer Instructor</h6>
+								<ul>
+									<li>- Instructed computer classes to both children and adults in the community following the established technology education curriculum, All classes taught in Spanish.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row experience">
+							<div class="col-sm-3">
+								<p>Mount Vernon, IA</p>
+								<p>Aug - May 2016</p>
+							</div>
+							<div class="col-sm-9 ">
+								<h5><a href="http://www.cornellcollege.edu/library/ctl/ats/" target="_blank">Academic Technology Studio, Cole Library</a></h5>
+								<h6>Peer Tech Consultant</h6>
+								<ul>
+									<li>- Assisted peers on personal, professional or academic projects that dealt with the usage of
+										hardware and software tools.</li>
+									</ul>
+								</div>
+							</div>
+							<div class="row experience">
+								<div class="col-sm-3">
+									<p>Mount Vernon, IA</p>
+									<p>May - Dec 2015</p>
+								</div>
+								<div class="col-sm-9 ">
+									<h5><a href="https://digitalzapotectombs.com/meet-the-team/" target="_blank">Cornell College Summer Research Institute</a></h5>
+									<h6>Research Assistant</h6>
+									<ul>
+										<li>- Created 3D digital models and 3D printed models from documentation cards.</li>
+										<li>- Rendered digital models into different applications for scholarly and institutional use.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div> <!-- end of RESUME SECTION -->
+
+					<!-- CONTACT SECTION -->
+					<div id="contact" class="row contact" style="height: 300px;">
+						<div class="col-md-12">
+							<p class="home-lead">...and email me!</p>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-lg-offset-2 form">
+							<form method="POST" action="https://formspree.io/art3her@gmail.com">
+								<input type="email" name="email" placeholder="Email">
+								<br>
+								<textarea name="message" placeholder="Message"></textarea>
+								<br>
+								<input type="text" name="_gotcha" style="display: none">
+								<input type="hidden" name="_next" value="thanks.html">
+								<input type="hidden" name="_subject" value="Message via arturohernandezjr.com">
+								<button type="submit" class="grn-btn">Send</button>
+							</form>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="row">
+								<div class="col-sm-12">
+									Hey there send me a message if you're interested in collaborating...
+								</div>
+								<div class="col-sm-12">
+									CONNECT ON: FB, IG, GH, YT, ETC...
+								</div>
+								<div class="col-sm-12">
+									email me at: art3her@gmail.com
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- end of CONTACT SECTION -->
+				</div> <!-- end of CONTAINER-FLUID--> 
+			</div> <!-- end of MAIN-CONTENT -->
+		</div> <!-- end of HOME-WRAP -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+	</html>
