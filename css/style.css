@@ -288,6 +288,10 @@ a:hover {
 	margin-bottom: 20px;
 }
 
+.art div p:first-child {
+	padding-top: 40px;
+}
+
 .thumb img {
 	width: 100%;
 }
