@@ -352,6 +352,7 @@ a:hover {
 
 .resume-col-1 {
 	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .resume-col-2 {
@@ -407,6 +408,24 @@ a:hover {
 	width: 80%;
 }
 
+.form {
+
+	padding-bottom: 50px;
+}
+
+.contact p {
+	margin-bottom: 0;
+}
+
+.contact i {
+	padding: 5px;
+}
+
+.connect {
+	top: 10px;
+	padding-bottom: 10px;
+}
+
 @media (max-width: 767px) {
 	.home-wrap {
 		display: block;
@@ -424,7 +443,7 @@ a:hover {
 		bottom: auto;
 		left: auto;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.site-nav, .email-link {
