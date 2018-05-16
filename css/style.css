@@ -190,8 +190,7 @@ a:hover {
 
 /* HERO SECTION */
 .hero {
-	/*background-image: url('../img/about-me.jpg');*/
-	background-color: black;
+	background-image: url('../img/about-me.jpg');
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -397,7 +396,8 @@ a:hover {
 
 /*CONTACT SECTION */
 .contact {
-	background-image: url('../img/contact-section.jpg');
+	/*background-image: url('../img/contact-section.jpg');*/
+	background-color: rgba(193, 66, 66, 0.3);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
