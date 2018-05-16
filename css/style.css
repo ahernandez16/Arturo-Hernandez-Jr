@@ -412,7 +412,7 @@ a:hover {
 
 .form input, textarea {
 	margin: 5px;
-	width: 80%;
+	width: 50%;
 }
 
 .form {
@@ -486,6 +486,7 @@ a:hover {
 
 	.home-lead {
 		font-size: 28px;
+		padding-bottom: 25px;
 	}
 
 	/* WEB SECTION */
