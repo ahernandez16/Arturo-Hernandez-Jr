@@ -221,7 +221,7 @@ a:hover {
 	background-color: rgba(193, 66, 66, 0.3);
 	color: black;
 	padding-bottom: 20px;
-	padding: 100px;
+	padding: 50px;
 }
 .image-container {
 	position: relative;
@@ -280,7 +280,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	padding: 150px;
+	padding: 50px;
 }
 
 .art p {
@@ -313,6 +313,7 @@ a:hover {
 	background-color: rgba(245, 245, 245, 1);
 	color: #36454f;
 	padding-bottom: 20px;
+	padding: 50px;
 }
 
 .guide {
@@ -343,6 +344,7 @@ a:hover {
 	background-position: center center;
 	background-size: cover;
 	color: white;
+	padding: 50px;
 }
 
 .resume h4 {
@@ -405,6 +407,7 @@ a:hover {
 	background-position: center center;
 	background-size: cover;
 	color: #36454f;
+	padding: 50px;
 }
 
 .form input, textarea {
