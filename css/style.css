@@ -195,6 +195,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+	padding: 50px;
 }
 
 .hero h2 {
@@ -220,6 +221,7 @@ a:hover {
 	background-color: rgba(193, 66, 66, 0.3);
 	color: black;
 	padding-bottom: 20px;
+	padding: 100px;
 }
 .image-container {
 	position: relative;
@@ -278,6 +280,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+	padding: 150px;
 }
 
 .art p {
