@@ -62,6 +62,10 @@ a:hover {
 	min-height: 100vh;
 }
 
+hr {
+	border-color: black;
+}
+
 /* NAVIGATION CSS */
 .home-wrap header {
 	width: 152px;
