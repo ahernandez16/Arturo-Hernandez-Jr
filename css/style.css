@@ -217,8 +217,9 @@ a:hover {
 	background-image: url('../img/web-b-1.png');
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: cover;*/
-	background-color: rgba(193, 66, 66, 0.3);
+	background-size: cover;
+	background-color: rgba(193, 66, 66, 0.3);*/
+	background-color: white;
 	color: black;
 	padding-bottom: 20px;
 	padding: 50px;
@@ -275,11 +276,13 @@ a:hover {
 
 /* ART SECTION */
 .art {
-	background-image: url('../img/art-section.jpg');
+	/*background-image: url('../img/art-section.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
+	color: white;*/
+	background-color: white;
+	color: black;
 	padding: 50px;
 }
 
@@ -309,9 +312,11 @@ a:hover {
 	background-image: url('../img/camera-blue-1.png');
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-size: cover;
 	background-color: rgba(245, 245, 245, 1);
-	color: #36454f;
+	color: #36454f;*/
+	background-color: white;
+	color: black;
 	padding-bottom: 20px;
 	padding: 50px;
 }
@@ -339,11 +344,13 @@ a:hover {
 
 /* RESUME SECTION */
 .resume {
-	background-image: url('../img/resume-section.jpg');
+	/*background-image: url('../img/resume-section.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	color: white;
+	color: white;*/
+	background-color: white;
+	color: black;
 	padding: 50px;
 }
 
@@ -361,7 +368,9 @@ a:hover {
 }
 
 .resume-col-2 {
-	background-color: rgba(255, 255, 255, 1);
+	/*background-color: rgba(255, 255, 255, 1);
+	color: black;*/
+	background-color: white;
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -402,11 +411,13 @@ a:hover {
 /*CONTACT SECTION */
 .contact {
 	/*background-image: url('../img/contact-section.jpg');*/
-	background-color: rgba(193, 66, 66, 0.3);
+	/*background-color: rgba(193, 66, 66, 0.3);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	color: #36454f;
+	color: #36454f;*/
+	background-color: white;
+	color: black;
 	padding: 50px;
 }
 
