@@ -14,17 +14,9 @@ a:hover {
 	text-decoration: none;
 }
 
-.btn {
-}
-
 .home-wrap {
 	display: flex;
 	min-height: 100vh;
-}
-
-hr {
-	border-width: 1px;
-	border-color: black;
 }
 
 /* NAVIGATION CSS */
@@ -179,13 +171,7 @@ hr {
 
 /* WEB SECTION */
 .web {
-	/*
-	background-image: url('../img/web-b-1.png');
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgba(193, 66, 66, 0.3);*/
-	background-color: rgb(249,250,252);
+	background-color: rgb(245,245,245);
 	color: black;
 	padding-bottom: 20px;
 	padding: 25px;
@@ -243,12 +229,7 @@ hr {
 
 /* ART SECTION */
 .art {
-	/*background-image: url('../img/art-section.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;*/
-	background-color: rgb(249,250,252);
+	background-color: rgb(245,245,245);
 	color: black;
 	padding: 25px;
 	margin: 25px;
@@ -276,13 +257,7 @@ hr {
 }
 
 /* PHOTO SECTION */
-.photo {/*
-	background-image: url('../img/camera-blue-1.png');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgba(245, 245, 245, 1);
-	color: #36454f;*/
+.photo {
 	background-color: rgb(245,245,245);
 	color: black;
 	padding-bottom: 20px;
@@ -305,11 +280,6 @@ hr {
 
 /* RESUME SECTION */
 .resume {
-	/*background-image: url('../img/resume-section.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	color: white;*/
 	background-color: rgb(245,245,245);
 	color: black;
 	padding: 25px;
@@ -328,10 +298,6 @@ hr {
 }
 
 .resume-col-2 {
-	/*background-color: rgba(255, 255, 255, 1);
-	color: black;
-	background-color: white;*/
-	background-color: rgb(249,250,252);
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -371,13 +337,7 @@ hr {
 
 /*CONTACT SECTION */
 .contact {
-	/*background-image: url('../img/contact-section.jpg');*/
-	/*background-color: rgba(193, 66, 66, 0.3);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	color: #36454f;*/
-	background-color: rgb(249,250,252);
+	background-color: rgb(245,245,245);
 	color: black;
 	padding: 25px;
 	margin: 25px;
