@@ -371,8 +371,9 @@ hr {
 
 .resume-col-2 {
 	/*background-color: rgba(255, 255, 255, 1);
-	color: black;*/
-	background-color: white;
+	color: black;
+	background-color: white;*/
+	background-color: rgb(249,250,252);
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
