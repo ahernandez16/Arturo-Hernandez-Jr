@@ -14,49 +14,8 @@ a:hover {
 	text-decoration: none;
 }
 
-.grn-btn {
-	font-size: 18px;
-	background-color: #5CB85C;
-	border: none;
-	color: white;
-	padding: 5px 0;
-	width: 80%;
-	transition-duration: 0.4s;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.grn-btn:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.bl-btn {
-	/*font-size: 18px;
-	background-color: #5BC0DE;
-	background-color: white;
-	border: none;
-	color: black;
-	padding: 5px 0;
-	width: 80%;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	border-radius: 10%; */
-}
-
-.bl-btn:hover {
-	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
-}
-
-.wh-btn {
-	font-size: 18px;
-	background-color: #ffffff;
-	border: none;
-	color: black;
-	padding: 5px 0;
-	width: 80%;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.wh-btn:hover {
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.btn {
+	border-radius: 10%;
 }
 
 .home-wrap {
