@@ -414,8 +414,8 @@ a:hover {
 	}
 
 	.hero {
-		margin: 0px;
-		padding: 0px;
+		margin: 5px;
+		padding: 5px;
 	}
 
 	.hero h2 {
@@ -428,8 +428,8 @@ a:hover {
 
 	/* WEB SECTION */
 	.web{
-		padding: 0px;
-		margin: 0px;
+		padding: 5px;
+		margin: 5px;
 	}
 
 	.iphone {
@@ -451,18 +451,18 @@ a:hover {
 
 	/* ART */
 	.art {
-		padding: 0px;
-		margin: 0px;
+		padding: 5px;
+		margin: 5px;
 	}
 	/* PHOTO */
 	.photo {
-		padding: 0px;
-		margin: 0px;
+		padding: 5px;
+		margin: 5px;
 	}
 	/* RESUME */
 	.resume {
-		padding: 0px;
-		margin: 0px;
+		padding: 5px;
+		margin: 5px;
 	}
 }
 
@@ -471,7 +471,7 @@ a:hover {
 		left: 0px;
 	}
 	.laptop-image {
-		left: 33px;
+		left: 39px;
 	}
 }
 @media (max-width: 375px){
@@ -480,11 +480,15 @@ a:hover {
 	}
 	.laptop-image {
 		height: 120px;
+		top: 8px;
+		left: 30px;
 	}
 	.iphone {
 		height: 100px;
 	}
 	.iphone-image {
-		height: 66px;
+		height: 71px;
+		top: 44px;
+		padding-left: 129px;
 	}
 }
