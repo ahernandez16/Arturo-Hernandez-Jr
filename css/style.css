@@ -415,7 +415,7 @@ a:hover {
 
 	.hero {
 		margin: 5px;
-		padding: 5px;
+		padding: 10px;
 	}
 
 	.hero h2 {
@@ -429,7 +429,7 @@ a:hover {
 	/* WEB SECTION */
 	.web{
 		padding: 5px;
-		margin: 5px;
+		margin: 10px;
 	}
 
 	.iphone {
@@ -452,17 +452,23 @@ a:hover {
 	/* ART */
 	.art {
 		padding: 5px;
-		margin: 5px;
+		margin: 10px;
 	}
 	/* PHOTO */
 	.photo {
 		padding: 5px;
-		margin: 5px;
+		margin: 10px;
 	}
 	/* RESUME */
 	.resume {
 		padding: 5px;
-		margin: 5px;
+		margin: 10px;
+	}
+
+	/* CONTACT */
+	.contact {
+		padding: 5px;
+		margin: 10px;
 	}
 }
 
@@ -479,7 +485,7 @@ a:hover {
 		height: 150px;
 	}
 	.laptop-image {
-		height: 120px;
+		height: 125px;
 		top: 8px;
 		left: 30px;
 	}
