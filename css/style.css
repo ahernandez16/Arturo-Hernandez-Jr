@@ -156,6 +156,11 @@ a:hover {
 	margin: 25px;
 }
 
+.col-sm-6{
+	padding: 0px;
+	margin: 0;
+}
+
 .hero h2 {
 	font-size: 50px;
 	font-weight: 400;
