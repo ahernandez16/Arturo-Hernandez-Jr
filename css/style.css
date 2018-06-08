@@ -414,8 +414,8 @@ a:hover {
 	}
 
 	.hero {
-		margin: 5px;
-		padding: 5px;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	.hero h2 {
@@ -448,6 +448,22 @@ a:hover {
 	.laptop-image {
 		left: 118px;
 	}
+
+	/* ART */
+	.art {
+		padding: 0px;
+		margin: 0px;
+	}
+	/* PHOTO */
+	.photo {
+		padding: 0px;
+		margin: 0px;
+	}
+	/* RESUME */
+	.resume {
+		padding: 0px;
+		margin: 0px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -464,5 +480,8 @@ a:hover {
     	width: -moz-available;          /* WebKit-based browsers will ignore this. */
     	width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
     	width: fill-available;
+	}
+	.laptop-image {
+	
 	}
 }
