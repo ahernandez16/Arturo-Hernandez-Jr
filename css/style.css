@@ -476,9 +476,15 @@ a:hover {
 }
 @media (max-width: 375px){
 	.laptop {
-    	/*width: -webkit-fill-available;  Mozilla-based browsers will ignore this. */
+		height: 150px;
 	}
 	.laptop-image {
-
+		height: 120px;
+	}
+	.iphone {
+		height: 100px;
+	}
+	.iphone-image {
+		height: 66px;
 	}
 }
