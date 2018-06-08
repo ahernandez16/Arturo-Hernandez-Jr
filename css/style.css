@@ -446,11 +446,7 @@ a:hover {
 		left: 80px;
 	}
 	.laptop-image {
-		left: 118px;/*
-		width: 100%;
-    	width: -moz-available;   */       /* WebKit-based browsers will ignore this. */
-    	/*width: -webkit-fill-available; */ /* Mozilla-based browsers will ignore this. */
-    	/*width: fill-available;*/
+		left: 118px;
 	}
 }
 
@@ -460,5 +456,13 @@ a:hover {
 	}
 	.laptop-image {
 		left: 33px;
+	}
+}
+@media (max-width: 375px){
+	.laptop {
+		width: 100%;
+    	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    	width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    	width: fill-available;
 	}
 }
