@@ -444,9 +444,17 @@ a:hover {
 	}
 	.laptop {
 		left: 80px;
+		width: 100%;
+    	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    	width: fill-available;
 	}
 	.laptop-image {
 		left: 118px;
+		width: 100%;
+    	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    	width: fill-available;
 	}
 }
 
