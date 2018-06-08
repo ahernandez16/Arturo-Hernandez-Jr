@@ -413,10 +413,13 @@ a:hover {
 		left: 0px;
 	}
 
+	.hero {
+		margin: 5px;
+		padding: 5px;
+	}
+
 	.hero h2 {
 		font-size: 40px;
-		margin: 0px;
-		padding: 0px;
 	}
 
 	.home-lead {
@@ -424,6 +427,11 @@ a:hover {
 	}
 
 	/* WEB SECTION */
+	.web{
+		padding: 5px;
+		margin: 5px;
+	}
+
 	.iphone {
 		height: 150px;
 		margin-bottom: 80px;
